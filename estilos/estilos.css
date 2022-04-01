@@ -1,0 +1,197 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+.logo img{
+    height: 40%;
+    width: 40%;
+    transform: translateX(-11%) translateY(-37%);
+    cursor: pointer;
+
+    }
+  
+    
+    
+
+header{
+    width: 100%;
+    height: 50px;
+    background-image: url(../imagenes/Vicky\ Caramel\ fondo.jpg);
+    color: white;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    z-index: 100;
+    }
+
+    .contenedor{
+        width: 98%;
+        margin: auto;
+}
+
+#menu-bar{
+    display: none;
+}
+header label{
+    float: right;
+    font-size: 28px;
+    margin: 6px;
+    cursor: pointer;
+
+
+}
+.menu{
+   position: absolute;
+   top: 50px;
+   left: 0%;
+   width: 100%;
+   height: 100vh;
+   background-color: pink;
+   transition: all 0.5s;
+   transform: translateX(-100%);
+}
+
+
+header .contenedor{
+    display: table;
+}
+.menu a{
+    display: block;
+    color: white;
+    height: 50px;
+    text-decoration: none;
+    padding: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.87);
+}
+.menu a:hover{
+    background: rgba(255, 255, 255, 0.918);
+}
+
+#menu-bar:checked ~ .menu{
+    transform: translateX(0%);
+}
+section{
+    width: 100%;
+    margin-bottom: 25px;
+}
+ /*BANNER*/
+ #banner{
+margin-top: 50px;
+position: relative;
+ }
+
+ #banner img{
+     width: 100%;
+    height: 100%;
+ }
+    
+ #banner .contenedor2{
+     position: absolute;
+     top:80%;
+     left: 70%;
+     transform: translateX(-50%) translateY(-50%);
+     color: rgb(253, 252, 253);
+     background-color: rgb(202, 5, 252);
+     padding: 10px;
+     margin: auto;
+     border: 1px solid white;
+
+ }
+ #banner h2{
+     font-size: 28px;
+      }
+
+      #banner a{
+          display: block;
+          width: 100px;
+          color: white;
+          text-decoration: none;
+          padding: 7px;
+          margin-top: 10px;
+          border: 3px solid white;
+}
+
+
+#banner a:hover{
+    background: rgba(51, 51, 51, 0.3);
+}
+
+/*BIENVENIDOS*/
+#bienvenidos{
+    text-align: center;
+
+}
+/*FACE*/
+
+#face h3, h4{
+    text-align: center;
+}
+#face .contenedor3{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+#face article{
+margin: 15px;
+
+}
+#face img{
+    width: 100%;
+    max-width: 280px;
+    object-fit: cover;
+
+}
+.pie{
+    background-image: url(../imagenes/Vicky\ Caramel\ fondo.jpg);
+    padding: 15px;
+    align-content: center;
+   
+    
+}
+.pie h4{
+    color: rgb(202, 5, 252);
+    font-size: 10px;
+    
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 50px 100px;
+    background: pink;
+
+}
+footer .contenedor{
+    width: 100%;
+    display: grid;
+    grid-template-columns:1fr 3fr 1fr 1fr;
+    grid-gap: 20px;
+    margin-bottom: 15px;
+}
+
+.redes ul{
+   list-style: none;
+   margin-top: 20px;
+   display: inline-block;
+   width: 48px;
+   height: 48px;
+   display: grid;
+   align-content: center;
+   justify-content: center;
+   display: grid;
+   grid-template-columns: repeat(4, 50px);
+   color: white;
+}
+
+    
+    
+}

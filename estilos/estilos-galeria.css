@@ -1,0 +1,34 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: pink;
+    box-sizing: border-box;
+    
+}
+.contenedorTexto{
+    
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+}
+h2{
+    color: white;
+    text-align: center;
+    font-family: "Montserrat" sans-serif;
+    font-size: 30px;
+}
+footer {
+    background-color: rgb(133, 9, 250);
+    height: 25px;
+    color: white;
+    margin-top: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+   
